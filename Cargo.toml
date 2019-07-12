@@ -7,4 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-vm_runtime_tests = { git = "https://github.com/zjshen14/libra", branch = "zjshen" }
+sputnikvm = { git = "https://github.com/ETCDEVTeam/sputnikvm" }
+sputnikvm-network-classic = { git = "https://github.com/ETCDEVTeam/sputnikvm" }
+etcommon-hexutil = "0.2"
+etcommon-bigint = "0.2"
