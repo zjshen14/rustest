@@ -5,7 +5,7 @@ use std::rc::Rc;
 use hexutil::read_hex;
 use std::ops::DerefMut;
 
-fn main() {
+pub fn play() {
     let block = HeaderParams {
         beneficiary: Address::default(),
         timestamp: 0,
